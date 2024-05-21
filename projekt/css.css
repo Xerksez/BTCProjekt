@@ -1,0 +1,122 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+
+}
+.produkt
+{
+    padding: 20px;
+    align-items: center;
+    display:flex;
+    flex-grow: 1;
+    border:solid black;
+    height:200px;
+    width: 700px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+    position: relative;
+font-weight: bold;
+}
+.napis
+{
+    font-weight: bold;
+}
+body {
+    background-image: url("bg.jpg");
+    background-color: #cccccc;
+    background-position: center;
+}
+.zdjecie
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.filtr
+{  font-weight: bold;
+    display:flex;
+    align-items: center;
+ margin-left: 400px;
+
+}
+
+a:link {
+    color: black;
+}
+
+
+a:visited {
+    color: black;
+}
+
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+.prawo
+{
+    position: absolute;
+    right: 0;
+}
+input
+{
+    margin-right: auto;
+    width: 200px;
+    background-color: goldenrod;
+}
+
+input
+{
+    margin-right: auto;
+    width: 200px;
+    background-color: goldenrod;
+    font-size: 15px;
+    font-weight: bold;
+}
+select
+{
+    background-color: goldenrod;
+}
+tr
+{
+    background-color: goldenrod;
+}
+.zamo
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.dane
+{  display:flex;
+    flex-grow: 1;
+    background-color: goldenrod;
+    border:solid black;
+}
+.form .textarea
+{
+    height: 100px;
+    line-break: auto;
+    resize: none;
+}
+.produkt2
+{
+    padding: 20px;
+    align-items: center;
+    display:flex;
+    flex-grow: 1;
+    border:solid black;
+    height:300px;
+    width: 700px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+    position: relative;
+    font-weight: bold;
+}
