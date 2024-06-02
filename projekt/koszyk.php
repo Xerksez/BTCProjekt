@@ -8,7 +8,7 @@ spl_autoload_register(function ($zamowienie) {
 });
 
 function generateBitcoinAddress() {
-    $address ="tb1qjr80d9zvn4edmnlg7edafxukelzzqrtzd8022p"; //shell_exec("cd C:\Program Files\Bitcoin\daemon && bitcoin-cli -testnet getnewaddress");
+    $address =shell_exec("cd C:\Program Files\Bitcoin\daemon && bitcoin-cli -testnet getnewaddress");
     echo $address; // Wyświetlenie adresu Bitcoin
     return trim($address);
 }

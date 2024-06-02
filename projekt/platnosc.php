@@ -46,7 +46,7 @@ $bitcoinAmount = $_SESSION['bitcoinAmount'];
             .then(data => {
                 if (data.paid) {
                     alert('Płatność została potwierdzona.');
-                    window.location.href = 'thank_you.php';
+                    window.location.href = 'index.php';
                 } else {
                     alert('Płatność nie została jeszcze potwierdzona. Spróbuj ponownie za kilka minut.');
                 }
