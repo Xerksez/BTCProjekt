@@ -7,31 +7,13 @@ spl_autoload_register(function ($zamowienie) {
     include $zamowienie . '.php';
 });
 
-function generateBitcoinAddress() {
-    $address =shell_exec("cd C:\Program Files\Bitcoin\daemon && bitcoin-cli -testnet getnewaddress");
-    echo $address; // Wyświetlenie adresu Bitcoin
-    return trim($address);
-}
 
-
-function checkTransaction($address, $amount) {
-    $transactions = json_decode(shell_exec("cd C:\Program Files\Bitcoin\daemon && bitcoin-cli -testnet listtransactions"), true);
-
-    foreach ($transactions as $tx) {
-        if (isset($tx['address']) && $tx['address'] === $address && $tx['amount'] == floatval($amount) && $tx['confirmations'] > 0) {
-            return true;
-        }
-    }
-    return false;
-}
 
 if (!empty($_POST['dodaj'])) {
     $d = date('d/m/y H:i:s');
     $z = new zamowienie($d, $_SESSION['calosc'], $_POST['adres'], $_POST['miasto'], 'Bitcoin', $_POST['metoda_d'], $_POST['numer'], $_SESSION['email'], $_POST['imie'], $_POST['nazwisko'], $_POST['kod']);
     $z->Dodaj();
 
-    $bitcoinAddress = generateBitcoinAddress();
-    $_SESSION['bitcoinAddress'] = $bitcoinAddress;
     $_SESSION['bitcoinAmount'] = ($_SESSION['calosc'])*(0.0000038);
     header('Location: platnosc.php');
     exit();

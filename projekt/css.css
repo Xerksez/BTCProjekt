@@ -3,7 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Spartan',sans-serif;
-
 }
 .produkt
 {
@@ -28,6 +27,8 @@ body {
     background-image: url("bg.jpg");
     background-color: #cccccc;
     background-position: center;
+    width: 1900px;
+    height: auto;
 }
 .zdjecie
 {
@@ -119,4 +120,8 @@ tr
     background-color: goldenrod;
     position: relative;
     font-weight: bold;
+}
+.btn-primary
+{
+    position: center;
 }

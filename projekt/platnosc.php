@@ -1,12 +1,16 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['bitcoinAddress']) || !isset($_SESSION['bitcoinAmount'])) {
-    echo "Brak adresu Bitcoin lub kwoty do zapłaty.";
+if (!isset($_SESSION['bitcoinAmount'])) {
+    echo "Brak do zapłaty.";
     exit();
 }
+if (!isset($_SESSION['visited'])) {
+    $_SESSION['visited'] = true;
+    $_SESSION['czas']=time();
+}
 
-$bitcoinAddress = $_SESSION['bitcoinAddress'];
+$bitcoinAddress = "tb1q8q2qtk250m5z64mamqaz68fwwylhlcxj8rwue2";
 $bitcoinAmount = $_SESSION['bitcoinAmount'];
 ?>
 
@@ -28,27 +32,31 @@ $bitcoinAmount = $_SESSION['bitcoinAmount'];
     <br>
     <br>
     <br>
-    <br>
-    Płatność Bitcoin:
+    <a href="koszyk.php" class="btn btn-secondary">Wróć do koszyka</a>
+    <p1 style="font-size: xx-large">Płatność Bitcoin:</p1>
 </b>
 <div class="container">
-    <div class="alert alert-info" role="alert">
+    <div class="alert alert-info" role="alert" style="font-size: x-large"  >
         Proszę przelać <?php echo number_format($bitcoinAmount, 8); ?> BTC na adres: <strong><?php echo $bitcoinAddress; ?></strong>
     </div>
-    <button class="btn btn-primary" onclick="checkBitcoinPayment()">Sprawdź status płatności</button>
+    <img src="qr.png" style="margin-left: 395px;">
+    <br>
+    <br>
+    <button class="btn btn-primary" style="margin-left: 418px; font-size: x-large" onclick="checkBitcoinPayment()">Sprawdź status płatności</button>
 </div>
 
-<!-- Sprawdzanie transakcji -->
 <script>
     function checkBitcoinPayment() {
+
         fetch('check_payment.php')
+
             .then(response => response.json())
             .then(data => {
                 if (data.paid) {
-                    alert('Płatność została potwierdzona.');
+                    alert('Płatność została wysłana, dziękujemy za zakup.');
                     window.location.href = 'index.php';
                 } else {
-                    alert('Płatność nie została jeszcze potwierdzona. Spróbuj ponownie za kilka minut.');
+                    alert('Cała kwota nie została jeszcze wysłana, pozostało Brakuje '+ data.brak +' BTC. Spróbuj ponownie odświeżyć za kilka minut.');
                 }
             })
             .catch(error => {

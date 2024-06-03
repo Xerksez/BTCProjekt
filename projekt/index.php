@@ -275,8 +275,6 @@ Ocena:
     }
     echo'</div>';
 }
-
-
 if(isset($_POST['dodaj_do_koszyka']))
 {   $i=$_POST['ilosc'];
     $ilosc=$_POST['iloscc'];
@@ -333,11 +331,7 @@ if(isset($_POST['dodaj_do_koszyka']))
         $_SESSION['koszyk'][0]=$produkt_tablica;
     }
 }
-/*
-Walidacja wszystkich inputów
-css
-silne hasło
-*/
+
 ?>
 
 </body>
