@@ -1,68 +1,190 @@
 
-Bitcoin Amount: -0.00456000
+brak:
 
-Bitcoin Amount: -0.00456000
+brak:
 
-Bitcoin Amount: -0.00000380
+brak:
 
-Bitcoin Amount: -0.00000380
-Transaction Amount: -0.00001200
-Total Sent: -0.00001200
+Amount: -0.00000380
 
-Bitcoin Amount: -0.00000380
+brak:-0.00000380
 
-Bitcoin Amount: -0.00000380
-Transaction Amount: -0.00000380
-Total Sent: -0.00000380
+brak:-0.00000380
 
-Bitcoin Amount: -0.00000380
+Amount: -0.00000380
 
-Bitcoin Amount: -0.00000380
-Transaction Amount: -0.00000300
-Total Sent: -0.00000300
+brak:-0.00000380
 
-Bitcoin Amount: -0.00000380
-Transaction Amount: -0.00000300
-Total Sent: -0.00000300
-Transaction Amount: -0.00000340
-Total Sent: -0.00000640
-Transaction Amount: Transaction Amount: ile brakuje: ile brakuje: 
-Bitcoin Amount: -0.00000380
+brak:-0.00000380
 
-Bitcoin Amount: -0.00000380
-brak: 
-Bitcoin Amount: -0.00000380
-brak: 
-Bitcoin Amount: -0.00000380
+Amount: -0.00000380
 
-Bitcoin Amount: -0.00000380
-brak: brak: 
-Bitcoin Amount: -0.00000380
-brak: brak: 
-Bitcoin Amount: -0.00000380
-brak: brak: 
-Bitcoin Amount: -0.00000380
-amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000amant: -0.00000380tsf: 0.00000000brak: brak: 
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 3.8E-6brak: 3.8E-6
-Bitcoin Amount: -0.00000380
-brak: 8.0E-7brak: 8.0E-7
-Bitcoin Amount: -0.00000380
-brak: 8.E0-7
-Bitcoin Amount: -0.00000380
+brak1:-0.00000380
 
-Bitcoin Amount: -0.00000380
+brak2:-0.00000380
 
-Bitcoin Amount: -0.00000380
+brak:-0.00000380
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:-0.00000380
+
+brak:-0.00000380
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:0.00000380
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+brak:3.8E-6
+
+tsf:0.00000000
+
+amant:-0.00000380
+
+brak:3.8E-6
+
+czas:1717525315
+
+tsf:0.00000000
+
+amant:-0.00000380
+
+brak:3.8E-6
+
+czas:1717525315
+
+tsf:0.00000000
+
+amant:-0.00000380
+
+brak:3.8E-6
+
+czas:1717525315
+
+tsf:0.00000000
+
+amant:-0.00000380
+
+brak:3.8E-6
+
+czas:1717525315
+
+tsf:0.00000000
+
+amant:-0.00000380
+
+brak:3.8E-6
+
+brak:8.0E-7
+
+tsf2:0.00000000
+
+amant2:-0.00000380
+
+brak:3.8E-6
+
+tsf:-0.00000300
+
+amant:-0.00000380
+
+tsf2:-0.00000300
+
+amant2:-0.00000380
+
+brak:8.0E-7
+
+tsf:-0.00000300
+
+amant:-0.00000380
+
+tsf2:-0.00000300
+
+amant2:-0.00000380
+
+brak:8.0E-7
+
+tsf:-0.00000300
+
+amant:-0.00000380
+
+tsf:-0.00000600
+
+amant:-0.00000380

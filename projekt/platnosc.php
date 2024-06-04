@@ -10,7 +10,8 @@ if (!isset($_SESSION['visited'])) {
     $_SESSION['czas']=time();
 }
 
-$bitcoinAddress = "tb1q8q2qtk250m5z64mamqaz68fwwylhlcxj8rwue2";
+$bitcoinAddress = "tb1qjr80d9zvn4edmnlg7edafxukelzzqrtzd8022p";
+$_SESSION['bitcoinAddress']= $bitcoinAddress;//"tb1q8q2qtk250m5z64mamqaz68fwwylhlcxj8rwue2";
 $bitcoinAmount = $_SESSION['bitcoinAmount'];
 ?>
 
@@ -47,16 +48,14 @@ $bitcoinAmount = $_SESSION['bitcoinAmount'];
 
 <script>
     function checkBitcoinPayment() {
-
         fetch('check_payment.php')
-
             .then(response => response.json())
             .then(data => {
                 if (data.paid) {
                     alert('Płatność została wysłana, dziękujemy za zakup.');
                     window.location.href = 'index.php';
                 } else {
-                    alert('Cała kwota nie została jeszcze wysłana, pozostało Brakuje '+ data.brak +' BTC. Spróbuj ponownie odświeżyć za kilka minut.');
+                    alert('Cała kwota nie została jeszcze wysłana, brakuje '+ data.brak +' BTC. Spróbuj ponownie odświeżyć za kilka minut.');
                 }
             })
             .catch(error => {
