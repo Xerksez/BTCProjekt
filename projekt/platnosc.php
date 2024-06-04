@@ -10,8 +10,8 @@ if (!isset($_SESSION['visited'])) {
     $_SESSION['czas']=time();
 }
 
-$bitcoinAddress = "tb1qjr80d9zvn4edmnlg7edafxukelzzqrtzd8022p";
-$_SESSION['bitcoinAddress']= $bitcoinAddress;//"tb1q8q2qtk250m5z64mamqaz68fwwylhlcxj8rwue2";
+$bitcoinAddress = "tb1q8q2qtk250m5z64mamqaz68fwwylhlcxj8rwue2";
+$_SESSION['bitcoinAddress']= $bitcoinAddress;//;
 $bitcoinAmount = $_SESSION['bitcoinAmount'];
 ?>
 
